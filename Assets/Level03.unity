@@ -1320,7 +1320,7 @@ GameObject:
   - component: {fileID: 1852447494}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -1888,6 +1888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8539670866108439940, guid: cf7165ee7f85c4651b489cc57d2574e5,
+        type: 3}
+      propertyPath: completeLevelUI
+      value: 
+      objectReference: {fileID: 1245869733}
     - target: {fileID: 8539670866108439941, guid: cf7165ee7f85c4651b489cc57d2574e5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1943,10 +1948,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8539670866108439940, guid: cf7165ee7f85c4651b489cc57d2574e5,
-        type: 3}
-      propertyPath: completeLevelUI
-      value: 
-      objectReference: {fileID: 1245869733}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf7165ee7f85c4651b489cc57d2574e5, type: 3}

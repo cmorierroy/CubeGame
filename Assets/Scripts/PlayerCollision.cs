@@ -14,5 +14,11 @@ public class PlayerCollision : MonoBehaviour
             FindObjectOfType<GameManager>().EndGame();
 
         }
+
+        if (collisionInfo.collider.tag == "Ground")
+        {
+            Debug.Log("We hit the ground.");
+            movement.onGround = true;
+        }
     }
 }
